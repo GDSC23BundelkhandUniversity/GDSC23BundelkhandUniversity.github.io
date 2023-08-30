@@ -911,9 +911,22 @@ a {
   align-items: center;
 }
 .footer--flex {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
   margin: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer--flex {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer--flex {
+    grid-template-columns: 1fr;
+  }
 }
 .list--element > a {
   transition: color 0.3s;
