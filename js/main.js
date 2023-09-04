@@ -105,3 +105,5 @@ checkbox.addEventListener("change", () => {
   });
   document.querySelector(".nav__toggler").classList.toggle("img-white");
 });
+
+

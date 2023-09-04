@@ -26,9 +26,9 @@
     <meta
       name="og_image"
       property="og:image"
-      content="https://gdsc-BU.github.io/images/meta_og_img.png"
+      content="https://gdsc-bu.github.io/images/meta_og_img.png"
     />
-    <meta property="og:url" content="https://gdsc-BU.github.io/" />
+    <meta property="og:url" content="https://gdsc-bu.github.io/" />
     <meta property="og:site_name" content="GDSC BU" />
     <meta
       property="og:description"
@@ -44,6 +44,9 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" type="image/svg+xml" href="/images//GDSC_BU (2).png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
   </head>
   <body>
     <nav class="nav collapsible">
@@ -65,6 +68,7 @@
           <a href="#events"> Events & Workshops</a>
         </li>
         <li class="nav__item"><a href="#team">Team</a></li>
+        <li class="nav__item"><a href="#contribute">Testimonials</a></li>
         <li class="nav__item"><a href="#community">Community</a></li>
         <li style="margin: 1.5rem 1rem 2rem 1rem">
           <a
@@ -692,6 +696,71 @@
        
       </div>
     </section>
+    <section class="block testimonials section" id="contribute">
+      <header class="block__header banner yellow--banner">
+        <h1 class="block__heading light--heading">Our Contributors</h1>
+        <p class="text-set light--heading">
+          Showcasing student's valuable testimonials
+        </p>
+      </header>
+
+      <div class="testimonial_container container swiper" style="z-index: 0;">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__content" >
+                  <div class="testimonial_quote">
+                    <i class="bx bxs-quote-alt-left"></i>
+                </div>
+                  <p class="testimonial_description">
+                    At GDSC-BU, we're proud to have passionate individuals who make our community shine!🚀 We want to give a big shoutout and appreciation to Samriddhi Dwivedi for her wonderful contribution.
+Samriddhi recently shared her insightful experience of our GDSC-BU information session in a captivating blog post. <br>📖Dive into her inspiring write-up here  👉<a href="https://gdsc23bu.hashnode.dev/gdsc-bu23-join-us-for-the-second-chapter" target="_blank" style="color: #db4437;">see more</a>
+                  </p>
+                  <h3 class="testimonial_date">September 02,2023</h3>
+                  <div class="testimonial_profile">
+                    <img src="images/Samriddhi.jpg" alt="image" class="testimonial_profile_img">
+                    <div class="testimonial_profile_data">
+                        <span class="testimonial_profile_name">Samriddhi Dwivedi</span>
+                        <span class="testimonial_profile_detail">B.Tech(Electronics and Communication Engineering) | 2nd year</span>
+                    </div>
+                </div>
+                  
+                </div>
+               
+              </div>
+            </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="card__content" >
+                    <div class="testimonial_quote">
+                      <i class="bx bxs-quote-alt-left"></i>
+                  </div>
+                    <p class="testimonial_description">
+                      We wanted to take a moment to share some incredible inspiration with you.
+Our dedicated GDSC-BU community contributor, Yash Jain, has truly amazed us with his outstanding contribution to a responsive website that has taken our community platform to a whole new level!🚀🌐 <br>
+You can check the incredible website he's created right 👉<a href="https://gdsc23bundelkhanduniversity.github.io/" target="_blank" style="color: #db4437;">see more</a>
+                    </p>
+                    <h3 class="testimonial_date">September 01,2023</h3>
+                    <div class="testimonial_profile">
+                      <img src="images/Yash.jpg" alt="" class="testimonial_profile_img">
+                      <div class="testimonial_profile_data">
+                          <span class="testimonial_profile_name">Yash Jain</span>
+                          <span class="testimonial_profile_detail">Web Developer | B.A 2nd year</span>
+                      </div>
+                  </div>
+                    
+                  </div>
+                 
+                </div>
+              </div>
+              
+              
+              
+          </div>
+         
+          <div class="swiper-pagination"></div>
+      </div>
+  </section>
     <section class="block" id="community">
       <div class="section">
         <header class="block__header banner primary--banner">
@@ -772,6 +841,8 @@
         </div>
       </div>
     </section>
+    
+   
     <footer class="block footer">
       <div class="footer--flex">
         <div class="footer__img__social">
@@ -892,5 +963,30 @@
       </div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </body>
 </html>
+<script>
+    let swiper = new Swiper(".testimonial_container", {
+    spaceBetween: 24,
+    loop: true,
+    grabCursor: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    breakpoints: {
+        576: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 48,
+        }
+    }
+})
+</script>
