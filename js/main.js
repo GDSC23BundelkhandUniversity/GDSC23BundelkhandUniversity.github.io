@@ -45,6 +45,7 @@ const btnAccentTwoAll = document.querySelectorAll(".button--accent--two");
 
 checkbox.addEventListener("change", () => {
   document.body.classList.toggle("dark");
+
   navItems.forEach((navItem) => {
     navItem.classList.toggle("text-light");
   });
@@ -105,5 +106,3 @@ checkbox.addEventListener("change", () => {
   });
   document.querySelector(".nav__toggler").classList.toggle("img-white");
 });
-
-
