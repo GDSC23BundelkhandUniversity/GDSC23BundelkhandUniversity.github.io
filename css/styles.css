@@ -685,10 +685,11 @@ a {
 }
 
 /*Flex*/
-
+.morerows {
+  flex-wrap: wrap;
+}
 .flex-row {
   display: flex;
-  flex-wrap: wrap;
 }
 .flex-rows {
   display: grid;
@@ -714,7 +715,7 @@ a {
   .flex-row {
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .flex-row-reverse {
     flex-direction: row-reverse;
