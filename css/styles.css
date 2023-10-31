@@ -622,19 +622,32 @@ a:hover {
 }
 
 .primary--banner {
-  background: rgba(0, 0, 0, 0.7) url(../images/blue-banner.png);
+  background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
   color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 98%;
 }
 .secondary--banner {
-  background: rgba(0, 0, 0, 0.7) url(../images/red-banner.png);
+  background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
   color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 98%;
 }
 .yellow--banner {
-  background: rgba(0, 0, 0, 0.7) url(../images/yellow-banner.png);
-  color: var(--color-headings);
+  background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 98%;
 }
 .green--banner {
-  background: rgba(0, 0, 0, 0.7) url(../images/green-banner.png);
+  background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 98%;
 }
 .green--banner > .block__heading {
   color: white;
