@@ -624,38 +624,26 @@ a:hover {
 .primary--banner {
   background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
   color: white;
-  background-size: cover;
-  background-position: center; /* Center the background image */
   background-repeat: no-repeat;
-  width: 98%;
-  min-height: 100px; /* Set a minimum height for the container */
+  background-size: cover;
 }
 .secondary--banner {
   background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
   color: white;
-  background-size: cover;
-  background-position: center; /* Center the background image */
   background-repeat: no-repeat;
-  width: 98%;
-  min-height: 100px; /* Set a minimum height for the container */
+  background-size: cover;
 }
 .yellow--banner {
   background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
   color: white;
-  background-size: cover;
-  background-position: center; /* Center the background image */
   background-repeat: no-repeat;
-  width: 98%;
-  min-height: 100px; /* Set a minimum height for the container */
+  background-size: cover;
 }
 .green--banner {
   background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
   color: white;
-  background-size: cover;
-  background-position: center; /* Center the background image */
   background-repeat: no-repeat;
-  width: 98%;
-  min-height: 100px; /* Set a minimum height for the container */
+  background-size: cover;
 }
 .green--banner > .block__heading {
   color: white;
