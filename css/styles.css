@@ -536,6 +536,7 @@ a:hover {
 .hero__logo {
   width: 100%;
   margin: 1rem 0;
+  /* background: linear-gradient(to top, #414650, #000); */
 }
 
 .hero__image {
@@ -642,7 +643,7 @@ a:hover {
   background-size: cover;
 }
 .green--banner {
-  background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
+  background: rgba(0, 0, 0, 0.7) url(../images/teambanner.jpeg);
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1077,7 +1078,7 @@ body.dark {
   color: white;
 }
 .sticky-light {
-  background-color: #292c35;
+  background: linear-gradient(to top, #414650, #000);
   border-bottom: 0.5px solid #1d2026;
 }
 .footer-dark {
@@ -1216,4 +1217,24 @@ body.dark {
 
 .album-image__img:hover {
   transform: scale(1.3);
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  pointer-events: none; /* Prevents the overlay from blocking interaction with the image */
 }
