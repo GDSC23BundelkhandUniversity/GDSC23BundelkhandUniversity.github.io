@@ -3,7 +3,7 @@
   --color-secondary: #db4437;
   --color-accent: #0f9d58;
   --color-accent-two: #f4b400;
-  --color-headings: #3c4858;
+  --color-headings: hsl(214, 19%, 29%);
   --color-body: #404040;
   --color-border: #ccc;
   /*===== Colors =====*/
@@ -622,19 +622,20 @@ a:hover {
 }
 
 .primary--banner {
-  background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
+  background: rgba(0, 0, 0, 0.7) url(../images/teambanner.jpeg);
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .secondary--banner {
-  background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
+  background: rgba(0, 0, 0, 0.7) url(../images/teambanner.jpeg);
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .yellow--banner {
-  background: rgba(0, 0, 0, 0.7) url(../images/head.jpg);
+  background: rgba(0, 0, 0, 0.7) url(../images/teambanner.jpeg);
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
